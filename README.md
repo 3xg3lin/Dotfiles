@@ -1,5 +1,5 @@
 # Dotfiles
-This is my first dotfiles. I will update from time to time.
+This is my first dotfiles. I will update it with time.
 ## Warning
 If you want to give these dotfiles a try, you will probably need to modify things.
 ## Screenshot
