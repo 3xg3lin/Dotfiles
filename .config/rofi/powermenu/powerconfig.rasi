@@ -101,8 +101,8 @@ listview {
     fixed-height:                true;
     fixed-columns:               true;
     
-    spacing:                     7px;
-    margin:                      7px;
+    spacing:                     10px;
+    margin:                      10px;
     background-color:            transparent;
     cursor:                      "default";
 }
