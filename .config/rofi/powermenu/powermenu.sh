@@ -34,14 +34,14 @@ rofi_cmd() {
 
 # Confirmation CMD
 confirm_cmd() {
-	rofi -theme-str 'window {location: center; anchor: center; fullscreen: false; width: 550px;}' \
+	rofi -theme-str 'window {location: center; anchor: center; fullscreen: false; width: 350px;height: 250px;}' \
 		-theme-str 'mainbox {orientation: vertical; children: [ "textbox-prompt-colon", "listview" ];}' \
 		-theme-str 'listview {columns: 1; lines: 1;}' \
 		-theme-str 'element-text {horizontal-align: 0.5;}' \
 		-theme-str 'textbox {horizontal-align: 0.5;}' \
 		-dmenu \
-		-p 'Confirmation' \
-		-mesg 'Are you Sure?' \
+		-p 'Are you Sure?' \
+		-mesg 'Confirmation' \
 		-theme ${dir}.rasi
 }
 
