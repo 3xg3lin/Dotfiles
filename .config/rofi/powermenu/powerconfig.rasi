@@ -57,7 +57,7 @@ mainbox {
     children:                    [ "inputbar", "listview", "message" ];
 }
 
-/*****----- Inputbar -----*****/
+
 inputbar {
     enabled:                     true;
     spacing:                     0px;
