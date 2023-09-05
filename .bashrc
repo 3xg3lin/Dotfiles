@@ -10,5 +10,5 @@ alias ll='exa -la --color=auto'
 alias c='cat'
 alias r='ranger'
 alias grep='grep --color=auto'
-PURPLE=$(tput setaf 219)
+PURPLE=$(tput setaf 213)
 PS1='\[$PURPLE\]\u \W\$\[$(tput sgr0) '
