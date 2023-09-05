@@ -1,0 +1,14 @@
+#
+# ~/.bashrc
+#
+
+# If not running interactively, don't do anything
+[[ $- != *i* ]] && return
+alias ls='ls --color=auto'
+alias l='exa --color=auto'
+alias ll='exa -la --color=auto'
+alias c='cat'
+alias r='ranger'
+alias grep='grep --color=auto'
+RED=$(tput setaf 1)
+PS1='\[$RED\]\h \W#\[$(tput sgr0) '
