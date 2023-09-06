@@ -11,4 +11,4 @@ alias c='cat'
 alias r='ranger'
 alias grep='grep --color=auto'
 RED=$(tput setaf 1)
-PS1='\[$RED\]\h \W#\[$(tput sgr0) '
+PS1='\[$RED\] \W >\[$(tput sgr0) '
