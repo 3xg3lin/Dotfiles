@@ -9,8 +9,8 @@ bspc config window_gap          12
 
 $HOME/.config/Touchpad.sh &
 $HOME/.config/polybar/launch.sh &
-feh --bg-fill /usr/share/backgrounds/archlinux/guweiz.png &
 picom -f &
+feh --randomize --recursive --no-fehbg --bg-fill  ~/Pictures/
 
 bspc config split_ratio          0.52
 bspc config borderless_monocle   true
