@@ -18,6 +18,9 @@ super + q
 super + Escape
 	pkill -USR1 -x sxhkd
 
+# change rofi and background image
+super + e
+	~/.config/bg-changer.sh
 #
 # bspwm hotkeys
 #
