@@ -1,4 +1,4 @@
-#! /bin/sh
+##! /bin/sh
 . "${HOME}/.cache/wal/colors.sh"
 
 bspc config normal_border_color "$color1"
@@ -18,7 +18,6 @@ $HOME/.config/polybar/launch.sh &
 $HOME/.config/Touchpad.sh &
 picom -f &
 $HOME/.config/background.sh &
-$HOME/.config/polybar/walpoly.sh &
 xset s 300 300
 
 bspc config split_ratio          0.52
