@@ -12,11 +12,12 @@ pgrep -x sxhkd > /dev/null || sxhkd &
 bspc monitor -d I II III IV V VI VII
 
 bspc config border_width         2
-bspc config window_gap 12
+bspc config window_gap          12
 
-$HOME/.config/polybar/launch.sh &
 $HOME/.config/Touchpad.sh &
 picom -f &
+dunst &
+$HOME/.config/polybar/launch.sh &
 $HOME/.config/background.sh &
 xset s 300 300
 
