@@ -6,5 +6,5 @@ COLORID=$(cat $HOME/.cache/wal/colors.sh |grep -o "color1='#[0-9,A-Z]*'"|grep -o
 sed -i "323s/#[0-9,A-Z]*/$COLORID/" .config/dunst/dunstrc
 sed -i "s/$WHICHPIC/$PICTURE/g" ~/.config/rofi/config.rasi ~/.config/rofi/powermenu/powerconfig.rasi
 feh --bg-fill  ~/Pictures/$PICTURE
-dunst
+dunst &
 betterlockscreen -u ~/Pictures/$PICTURE
