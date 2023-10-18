@@ -3,13 +3,13 @@ PICTURE=$(ls ~/Pictures|shuf -n 1)
 WHICHPIC=$(cat ~/.config/rofi/config.rasi|grep -o 'guweiz[0-9]*.jpg')
 (cat ~/.cache/wal/sequences &)
 wal -i ~/Pictures/$PICTURE -q
-killall -9 dunst 
 PRIMARY=$(grep -i "color1='#[0-9,A-Z,a-z]*'" ~/.cache/wal/colors.sh|grep -o "#[0-9,A-Z,a-z]*")
 sed -i "323s/#[0-9,A-Z,a-z]*/$PRIMARY/" $HOME/.config/dunst/dunstrc
 sed -i -e "s/%{F#[0-9,A-Z]*}/%{F$PRIMARY}/g" $HOME/.config/polybar/config.ini
 polybar-msg cmd restart
 picom &
-dunst
 sed -i "s/$WHICHPIC/$PICTURE/g" ~/.config/rofi/config.rasi ~/.config/rofi/powermenu/powerconfig.rasi
 feh --bg-fill  ~/Pictures/$PICTURE
+killall -9 dunst 
+dunst
 betterlockscreen -u ~/Pictures/$PICTURE
