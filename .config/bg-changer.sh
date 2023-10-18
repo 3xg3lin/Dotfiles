@@ -11,5 +11,5 @@ picom &
 sed -i "s/$WHICHPIC/$PICTURE/g" ~/.config/rofi/config.rasi ~/.config/rofi/powermenu/powerconfig.rasi
 feh --bg-fill  ~/Pictures/$PICTURE
 killall -9 dunst 
-dunst
+dunst &
 betterlockscreen -u ~/Pictures/$PICTURE
