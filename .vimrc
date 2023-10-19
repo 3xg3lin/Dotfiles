@@ -60,6 +60,7 @@ Plug 'preservim/nerdtree'
 Plug 'tomasr/molokai'
 Plug 'ycm-core/YouCompleteMe'
 Plug 'ryanoasis/vim-devicons'
+Plug 'instant-markdown/vim-instant-markdown', {'for': 'markdown', 'do': 'yarn install'}
 call plug#end()
 
 colorscheme molokai
