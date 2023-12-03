@@ -4,8 +4,7 @@ This is my first dotfiles. I will update it with time.
 If you want to give these dotfiles a try, you will probably need to modify things.
 ## Screenshot
 My live wallpaper configuration looks like this...
-![new](https://github.com/3xg3lin/dotfiles/assets/73038148/b1d1b2da-7184-43cb-bfd8-0d22ecae2df5)
-
+![new](https://github.com/3xg3lin/dotfiles/assets/73038148/a25897d2-fd5c-4b61-8774-e74fc6691561)
 This is the configuration I'm using now.
 ![New_rice](https://github.com/3xg3lin/dotfiles/assets/73038148/1b703994-5a69-4b89-a4e1-8a39862977c2)
 Old one is bellow.
