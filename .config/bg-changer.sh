@@ -9,7 +9,7 @@ sed -i -e "s/%{F#[0-9,A-Z]*}/%{F$PRIMARY}/g" $HOME/.config/polybar/config.ini
 polybar-msg cmd restart
 picom &
 sed -i "s/$WHICHPIC/$PICTURE/g" ~/.config/rofi/config.rasi ~/.config/rofi/powermenu/powerconfig.rasi
-feh --bg-fill  ~/Pictures/$PICTURE
-killall -9 dunst 
-dunst &
+#feh --bg-fill  ~/Pictures/$PICTURE
+feh --bg-fill ~/Pictures/black-screen.jpg
+systemctl restart --user dunst.service &
 betterlockscreen -u ~/Pictures/$PICTURE
