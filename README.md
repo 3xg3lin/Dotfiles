@@ -3,6 +3,10 @@ This is my first dotfiles. I will update it with time.
 ## Warning
 If you want to give these dotfiles a try, you will probably need to modify things.
 ## Screenshot
+My live wallpaper configuration looks like this...
+
+https://github.com/3xg3lin/dotfiles/assets/73038148/4c169e32-86d4-4e28-9b98-edbf4c8e7500
+
 This is the configuration I'm using now.
 ![New_rice](https://github.com/3xg3lin/dotfiles/assets/73038148/1b703994-5a69-4b89-a4e1-8a39862977c2)
 Old one is bellow.
