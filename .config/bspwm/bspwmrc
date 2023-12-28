@@ -1,4 +1,4 @@
-#! /bin/sh
+#! /bin/zsh
 . "${HOME}/.cache/wal/colors.sh"
 
 bspc config normal_border_color "$color1"
@@ -14,6 +14,7 @@ bspc monitor -d 1 2 3 4 5 6
 bspc config border_width         2
 bspc config window_gap          10
 
+/usr/bin/lxpolkit &
 $HOME/.config/Touchpad.sh &
 picom -f &
 $HOME/.config/polybar/launch.sh &
@@ -31,3 +32,4 @@ bspc rule -a mplayer2 state=floating
 bspc rule -a Kupfer.py focus=on
 bspc rule -a Screenkey manage=off
 bspc rule -a obs state=floating
+bspc rule -a Pavucontrol state=floating
