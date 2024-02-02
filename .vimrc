@@ -53,14 +53,18 @@ endif
 
 nnoremap <C-n> :NERDTree<CR>
 nnoremap <C-t> :NERDTreeToggle<CR>
-nnoremap <C-f> :NERDTreeFind<CR>
+nnoremap <C-g> :NERDTreeFind<CR>
 
 call plug#begin('~/.vim/bundle/')
 Plug 'preservim/nerdtree'
-Plug 'tomasr/molokai'
 Plug 'ycm-core/YouCompleteMe'
+Plug 'nordtheme/vim'
 Plug 'ryanoasis/vim-devicons'
 Plug 'instant-markdown/vim-instant-markdown', {'for': 'markdown', 'do': 'yarn install'}
 call plug#end()
 
-colorscheme molokai
+colorscheme nord
+
+set autoindent 
+set number
+set shiftwidth=4 
