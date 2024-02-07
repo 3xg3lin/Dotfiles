@@ -68,3 +68,4 @@ colorscheme nord
 set autoindent 
 set number
 set shiftwidth=4 
+set softtabstop=4
